@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct MovieCompanionApp: App {
+    @StateObject var leaderboardVM = LeaderboardViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainPageView()
+                .environmentObject(MovieViewModel())
+                .environmentObject(LeaderboardViewModel())
         }
     }
 }

@@ -7,18 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F17A41B29FC651B002331F5 /* DetailView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F17A41A29FC651B002331F5 /* DetailView2.swift */; };
 		2F18C82829F57EB0002E058D /* MovieCompanionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F18C82729F57EB0002E058D /* MovieCompanionApp.swift */; };
-		2F18C82A29F57EB0002E058D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F18C82929F57EB0002E058D /* ContentView.swift */; };
+		2F18C82A29F57EB0002E058D /* MovieListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F18C82929F57EB0002E058D /* MovieListView.swift */; };
 		2F18C82C29F57EB2002E058D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F18C82B29F57EB2002E058D /* Assets.xcassets */; };
 		2F18C82F29F57EB2002E058D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F18C82E29F57EB2002E058D /* Preview Assets.xcassets */; };
+		2F18C83829F57F9F002E058D /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F18C83729F57F9F002E058D /* Movie.swift */; };
+		2F18C83A29F5823F002E058D /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F18C83929F5823F002E058D /* MovieViewModel.swift */; };
+		2F294BC129FC27D4009B90F6 /* Leaderboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F294BC029FC27D4009B90F6 /* Leaderboard.swift */; };
+		2F294BC329FC2815009B90F6 /* LeaderboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F294BC229FC2815009B90F6 /* LeaderboardViewModel.swift */; };
+		2F294BC529FC2995009B90F6 /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F294BC429FC2995009B90F6 /* LeaderboardView.swift */; };
+		2F76417E29F72CC900C16A5A /* MovieQuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F76417D29F72CC900C16A5A /* MovieQuizView.swift */; };
+		2F8A23C129FC58340037CB5D /* MainPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8A23C029FC58340037CB5D /* MainPageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F17A41A29FC651B002331F5 /* DetailView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView2.swift; sourceTree = "<group>"; };
 		2F18C82429F57EB0002E058D /* MovieCompanion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieCompanion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F18C82729F57EB0002E058D /* MovieCompanionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCompanionApp.swift; sourceTree = "<group>"; };
-		2F18C82929F57EB0002E058D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2F18C82929F57EB0002E058D /* MovieListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListView.swift; sourceTree = "<group>"; };
 		2F18C82B29F57EB2002E058D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F18C82E29F57EB2002E058D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2F18C83729F57F9F002E058D /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		2F18C83929F5823F002E058D /* MovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
+		2F294BC029FC27D4009B90F6 /* Leaderboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leaderboard.swift; sourceTree = "<group>"; };
+		2F294BC229FC2815009B90F6 /* LeaderboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardViewModel.swift; sourceTree = "<group>"; };
+		2F294BC429FC2995009B90F6 /* LeaderboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardView.swift; sourceTree = "<group>"; };
+		2F76417D29F72CC900C16A5A /* MovieQuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieQuizView.swift; sourceTree = "<group>"; };
+		2F80051B29FD6F9800DC293B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2F8A23C029FC58340037CB5D /* MainPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +68,17 @@
 		2F18C82629F57EB0002E058D /* MovieCompanion */ = {
 			isa = PBXGroup;
 			children = (
+				2F80051B29FD6F9800DC293B /* Info.plist */,
 				2F18C82729F57EB0002E058D /* MovieCompanionApp.swift */,
-				2F18C82929F57EB0002E058D /* ContentView.swift */,
+				2F18C82929F57EB0002E058D /* MovieListView.swift */,
+				2F8A23C029FC58340037CB5D /* MainPageView.swift */,
+				2F76417D29F72CC900C16A5A /* MovieQuizView.swift */,
+				2F294BC429FC2995009B90F6 /* LeaderboardView.swift */,
+				2F17A41A29FC651B002331F5 /* DetailView2.swift */,
+				2F18C83729F57F9F002E058D /* Movie.swift */,
+				2F294BC029FC27D4009B90F6 /* Leaderboard.swift */,
+				2F18C83929F5823F002E058D /* MovieViewModel.swift */,
+				2F294BC229FC2815009B90F6 /* LeaderboardViewModel.swift */,
 				2F18C82B29F57EB2002E058D /* Assets.xcassets */,
 				2F18C82D29F57EB2002E058D /* Preview Content */,
 			);
@@ -137,8 +163,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F18C82A29F57EB0002E058D /* ContentView.swift in Sources */,
+				2F294BC329FC2815009B90F6 /* LeaderboardViewModel.swift in Sources */,
+				2F18C82A29F57EB0002E058D /* MovieListView.swift in Sources */,
+				2F8A23C129FC58340037CB5D /* MainPageView.swift in Sources */,
 				2F18C82829F57EB0002E058D /* MovieCompanionApp.swift in Sources */,
+				2F76417E29F72CC900C16A5A /* MovieQuizView.swift in Sources */,
+				2F294BC529FC2995009B90F6 /* LeaderboardView.swift in Sources */,
+				2F294BC129FC27D4009B90F6 /* Leaderboard.swift in Sources */,
+				2F17A41B29FC651B002331F5 /* DetailView2.swift in Sources */,
+				2F18C83829F57F9F002E058D /* Movie.swift in Sources */,
+				2F18C83A29F5823F002E058D /* MovieViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +304,10 @@
 				DEVELOPMENT_TEAM = XKX48LY2U8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MovieCompanion/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "My Movie Companion";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -299,9 +334,10 @@
 				DEVELOPMENT_TEAM = XKX48LY2U8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MovieCompanion/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "My Movie Companion";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
