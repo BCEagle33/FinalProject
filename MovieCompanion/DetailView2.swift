@@ -19,10 +19,10 @@ struct DetailView2: View {
                 VStack(alignment: .leading, spacing: 2) {
                     Text("Movie Info Page: \(movie.Title)")
                         .foregroundColor(.black)
-                        .font(.custom("ChalkboardSE-Bold", fixedSize: 30))
+                        .font(.custom("ChalkboardSE-Bold", size: 30))
                         .fontWeight(.medium)
                         .lineLimit(2)
-                        .minimumScaleFactor(0.8)
+                        .minimumScaleFactor(0.7)
                         
                     
                     Rectangle()
@@ -80,7 +80,7 @@ struct DetailView2: View {
                             
                             Text(movie.Actors)
                                 .lineLimit(2)
-                                .minimumScaleFactor(0.5)
+                                .minimumScaleFactor(0.6)
                         }
                         .font(.title3)
                         .fontWeight(.light)

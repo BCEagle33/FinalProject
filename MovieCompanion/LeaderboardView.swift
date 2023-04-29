@@ -22,7 +22,7 @@ struct LeaderboardView: View {
                         .fontWeight(.ultraLight)
                         .padding()
                     Rectangle()
-                        .frame(width: .infinity, height: 2)
+                        .frame(height: 2)
                     
                     
                     List {
@@ -30,17 +30,20 @@ struct LeaderboardView: View {
                                 HStack{
                                     Text("\(person.name.capitalized):")
                                         .font(.title2)
+                                        .minimumScaleFactor(0.5)
                                     Text("Score: \(person.score)")
                                         .font(.title2)
+                                        .minimumScaleFactor(0.5)
                                     Text("Movie: \(person.movie)")
                                         .font(.title2)
+                                        .lineLimit(2)
+                                        .minimumScaleFactor(0.5)
                                     
                                 }
                             }
                         .onDelete(perform: leaderboardVM.deleteLeaderboard)
                         }
                     .lineLimit(1)
-                    .minimumScaleFactor(0.5)
                     .foregroundColor(.black)
                     .overlay {
                         RoundedRectangle(cornerRadius: 1)
@@ -54,7 +57,11 @@ struct LeaderboardView: View {
                                 .foregroundColor(.black)
                         }
                     }
-                    
+                    Button("Delete All") {
+                        leaderboardVM.leaderboardList = []
+                        leaderboardVM.saveData()
+                    }
+                    .tint(.black)
                     }
                     
             }
